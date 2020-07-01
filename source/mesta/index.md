@@ -6,10 +6,7 @@ date: 2020-02-07 19:31:32
 [![Вознесенский собор](sobor/image-thumbnail.jpg#thumbnail "Вознесенский собор")](./sobor)[![Триумфальные арки](arki/image-thumbnail.jpg#thumbnail "Триумфальные арки")](./arki)
 ***
 ## Образование и культура
-[![НГМА (НИМИ)](nimi/image-thumbnail.jpg#thumbnail "НГМА (НИМИ)")](./nimi)[![Атаманский дворец](ataman/image-thumbnail.jpg#thumbnail "Атаманский дворец")](./ataman) [![Казачий Драматический театр](teatr/image-thumbnail.jpg#thumbnail "Казачий Драматический театр")](./teatr)
-***
-## Музеи
-[![Музей истории Донского казачества](museum/image-thumbnail.jpg#thumbnail "Музей истории Донского казачества")](./museum)
+[![НГМА (НИМИ)](nimi/image-thumbnail.jpg#thumbnail "НГМА (НИМИ)")](./nimi)[![Музей истории Донского казачества](museum/image-thumbnail.jpg#thumbnail "Музей истории Донского казачества")](./museum)[![Атаманский дворец](ataman/image-thumbnail.jpg#thumbnail "Атаманский дворец")](./ataman) [![Казачий Драматический театр](teatr/image-thumbnail.jpg#thumbnail "Казачий Драматический театр")](./teatr)
 ***
 ## Храмы
 [![Вознесенский собор](sobor/image-thumbnail.jpg#thumbnail "Вознесенский собор")](./sobor)[![Храм Константина и Елены](khramy/konst-elena-image-thumbnail.jpg#thumbnail "Храм Константина и Елены")](./khramy#konstantin-elena)[![Храм Александра Невского](khramy/nevskogo-image-thumbnail.jpg#thumbnail "Храм Александра Невского")](./khramy#aleksandr-nevskiy)[![Михайловский храм](khramy/mikhailovskiy-image-thumbnail.jpg#thumbnail "Михайловский храм")](./khramy#mikhailovskiy)
