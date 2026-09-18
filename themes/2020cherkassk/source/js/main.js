@@ -2,6 +2,15 @@ $(document).ready(function(){
 
 
 
+    //open content images that are not links in the photo viewer
+    $(".content img").filter(function(){
+        return !$(this).closest("a").length;
+    }).addClass("zoomable").click(function(){
+        $.featherlight({ image: this.currentSrc || this.src });
+    });
+
+
+
     //mobile menu toggling
     $("#menu_icon").click(function(){
         $("header nav ul").toggleClass("show_menu");

@@ -84,6 +84,10 @@ header .logo a:hover .logo-icon {
     opacity: 0.7;
 }
 
+.content img.zoomable {
+    cursor: zoom-in;
+}
+
 @media (min-width:1099px){
     header{
         display: block;
