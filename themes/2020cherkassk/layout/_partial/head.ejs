@@ -72,8 +72,9 @@
 
     <!--Favicon-->
     <% if (theme.favicon){ %>
-        <link rel="shortcut icon" href="<%= theme.favicon %>" type="image/x-icon">
-        <link rel="icon" href="<%= theme.favicon %>" type="image/x-icon">
+        <link rel="icon" href="<%= theme.favicon %>" sizes="any">
+        <link rel="icon" href="<%- url_for('/favicon.svg') %>" type="image/svg+xml">
+        <link rel="apple-touch-icon" href="<%- url_for('/apple-touch-icon.png') %>">
     <% } %>
 
 </head>

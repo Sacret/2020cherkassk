@@ -67,6 +67,23 @@ h5, h6          { font-weight: bolder }
 }
 
 /*  Header  */
+header .logo a {
+    display: inline-flex;
+    align-items: center;
+}
+
+header .logo .logo-icon {
+    width: 1.6em;
+    height: 1.6em;
+    margin-right: 0.3em;
+    border-radius: 3px;
+    transition: opacity 0.2s;
+}
+
+header .logo a:hover .logo-icon {
+    opacity: 0.7;
+}
+
 @media (min-width:1099px){
     header{
         display: block;
