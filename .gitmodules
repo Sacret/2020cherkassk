@@ -1,0 +1,3 @@
+[submodule "themes/magnetic"]
+	path = themes/magnetic
+	url = https://github.com/klugjo/hexo-theme-magnetic.git
