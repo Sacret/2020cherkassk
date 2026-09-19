@@ -90,16 +90,17 @@ header .logo a:hover .logo-icon {
 
 @media (min-width:1099px){
     header{
-        display: block;
+        display: flex;
+        flex-direction: column;
         position: fixed;
         top: 0;
+        bottom: 0;
         left: 0;
         width: 250px;
-        min-height: 100%;
         padding: 0 0 0 50px;
         background: #ffffff;
-        float: left;
-        overflow: hidden;
+        overflow-x: hidden;
+        overflow-y: auto;
         z-index: 9999;
     }
 
@@ -146,9 +147,10 @@ header .logo a:hover .logo-icon {
         color: #969595;
     }
 
+    /* stays at the bottom, but moves below the menu instead of overlapping it on short screens */
     header .footer{
-        position: absolute;
-        bottom: 50px;
+        margin-top: auto;
+        padding: 30px 0 50px;
     }
 
     header ul.social{
