@@ -1,12 +1,16 @@
 ---
 title: Храмы Новочеркасска
 date: 2020-02-16 11:40:25
-cover_detail: image-full.jpg
 ---
 Так как Новочеркасск считается не просто казачьим городом, но и столицей Донского казачества, то с самого дня основания он должен был соответствовать своему статусу: в том числе по количеству православных храмов. На рубеже XIX и XX веков храмов насчитывалось более двух десятков, многие из них до наших дней не сохранились.
 
 <div id="konstantin-elena" class="info-container">
-  <img src="konstantin-elena.jpg#khram" alt="Храм Константина и Елены" />
+  <div class="info-image">
+    <img src="konstantin-elena.jpg#khram" alt="Храм Константина и Елены" />
+    <div class="place-image-source">
+      Фото: <a href="https://www.vladmuz.ru/travel_photos/novocherkassk/architektur/042.htm" target="_blank">Владимир Музыченко</a>
+    </div>
+  </div>
   <div class="info-text">
     <h2>Храм Константина и Елены</h2>
     <div><b>Адрес:</b> Сенная пл., 5</div>
@@ -18,7 +22,12 @@ cover_detail: image-full.jpg
 </div>
 
 <div id="aleksandr-nevskiy" class="info-container">
-  <img src="aleksandr-nevskiy.jpg#khram" alt="Храм Александра Невского" />
+  <div class="info-image">
+    <img src="aleksandr-nevskiy.jpg#khram" alt="Храм Александра Невского" />
+    <div class="place-image-source">
+      Фото: <a href="https://www.vladmuz.ru/travel_photos/novocherkassk/architektur/04.htm" target="_blank">Владимир Музыченко</a>
+    </div>
+  </div>
   <div class="info-text">
     <h2>Храм Александра Невского</h2>
     <div><b>Адрес:</b> Александровская ул., 78А</div>
