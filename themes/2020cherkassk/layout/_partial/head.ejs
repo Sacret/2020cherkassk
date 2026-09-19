@@ -22,6 +22,8 @@
         shareImage = new URL(shareImage || theme.default_cover_detail, pageUrl).href;
     %>
 
+    <link rel="canonical" href="<%= pageUrl %>">
+
     <!--Description-->
     <% if (description){ %>
         <meta name="description" content="<%= description %>">
