@@ -8,7 +8,7 @@ cover_detail: image-full.jpg
   <div class="place-image">
     <img src="image.jpg#mesta" alt="Донской театр драмы и комедии имени В. Ф. Комиссаржевской" />
     <div class="place-image-source">
-      Фото: <a href="https://www.vladmuz.ru/travel_photos/novocherkassk/architektur/" target="_blank">Владимир Музыченко</a>
+      Фото: <a href="https://www.vladmuz.ru/travel_photos/novocherkassk/architektur/17.htm" target="_blank">Владимир Музыченко</a>
     </div>
   </div>
   <div class="place-info">
