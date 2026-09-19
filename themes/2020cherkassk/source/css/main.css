@@ -1644,6 +1644,14 @@ figure.highlight.yml .number,
     padding-top: 15px;
 }
 
+/* divider between items on list pages (temples, monuments, mansions, benchmarks) */
+.info-container + .info-container {
+    margin-top: 15px;
+    padding-top: 30px;
+    /* a light line that fades out towards the edges; a background, since a pseudo-element would become a flex item */
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), #e3e3e3 25%, #e3e3e3 75%, rgba(0, 0, 0, 0)) top / 100% 1px no-repeat;
+}
+
 @media (min-width:1099px) {
     .info-container {
         flex-direction: row;
