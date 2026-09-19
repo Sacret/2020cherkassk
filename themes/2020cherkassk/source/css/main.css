@@ -567,6 +567,53 @@ header .logo a:hover .logo-icon {
     }
 }
 
+.content a.thumb{
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px 10px 0;
+    overflow: hidden;
+}
+
+.content a.thumb img{
+    display: block;
+    margin: 0;
+}
+
+.content a.thumb::after{
+    content: attr(data-caption);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 8px 10px;
+    background: rgba(69, 69, 69, 0.85);
+    color: #fff;
+    font-size: 13px;
+    line-height: 1.3;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+.content a.thumb:hover::after,
+.content a.thumb:focus-visible::after{
+    opacity: 1;
+}
+
+/* no hover on touch screens: keep captions visible */
+@media (hover: none) {
+    .content a.thumb::after{
+        opacity: 1;
+    }
+}
+
+@media (max-width:400px) {
+    .content a.thumb{
+        display: block;
+        margin-right: 0;
+    }
+}
+
 .content .gallery-grid{
     display: flex;
     flex-wrap: wrap;
