@@ -4,15 +4,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
 
+    <%
+        var description;
+        if (page.description) description = page.description;
+        else if (config.description) description = config.description;
+        else if (page.excerpt) description = strip_html(page.excerpt).replace(/^\s*/, '').replace(/\s*$/, '');
+        else if (page.content) description = strip_html(page.content).replace(/^\s*/, '').replace(/\s*$/, '').substring(0, 150);
+        if (description) description = description.replace(/\s+/g, ' ');
+
+        // share image: same choice as the page header in article-full.ejs, resolved to an absolute URL
+        var pageUrl = full_url_for(page.path).replace(/index\.html$/, '');
+        var shareImage = page.cover_detail;
+        if (!shareImage) {
+            var firstImg = (page.content || '').match(/<img[^>]*\ssrc="([^"#]+)/);
+            if (firstImg) shareImage = firstImg[1];
+        }
+        shareImage = new URL(shareImage || theme.default_cover_detail, pageUrl).href;
+    %>
+
     <!--Description-->
-    <% if (page.description){ %>
-        <meta name="description" content="<%= page.description %>">
-    <% } else if (config.description){ %>
-        <meta name="description" content="<%= config.description %>">
-    <% } else if (page.excerpt){ %>
-        <meta name="description" content="<%= strip_html(page.excerpt).replace(/^\s*/, '').replace(/\s*$/, '') %>">
-    <% } else if (page.content){ %>
-        <meta name="description" content="<%= strip_html(page.content).replace(/^\s*/, '').replace(/\s*$/, '').substring(0, 150) %>">
+    <% if (description){ %>
+        <meta name="description" content="<%= description %>">
     <% } %>
 
     <!--Author-->
@@ -20,20 +32,19 @@
         <meta name="author" content="<%= config.author %>">
     <% } %>
 
-    <!--Open Graph Title-->
-    <% if (page.title){ %>
-        <meta property="og:title" content="<%= page.title %>"/>
-    <% } %>
-
-    <!--Open Graph Site Name-->
+    <!--Open Graph-->
+    <meta property="og:title" content="<%= page.title || config.title %>"/>
     <meta property="og:site_name" content="<%= config.title %>"/>
-
-    <!--Page Cover-->
-    <% if(page.cover) { %>
-        <meta property="og:image" content="<%= page.cover %>" />
-    <% } else { %>
-        <meta property="og:image" content="<%= theme.cover %>"/>
+    <meta property="og:type" content="<%= page.layout === 'post' ? 'article' : 'website' %>"/>
+    <meta property="og:url" content="<%= pageUrl %>"/>
+    <meta property="og:locale" content="ru_RU"/>
+    <meta property="og:image" content="<%= shareImage %>"/>
+    <% if (description){ %>
+        <meta property="og:description" content="<%= description %>"/>
     <% } %>
+
+    <!--Twitter Card (title, description and image are taken from og:*)-->
+    <meta name="twitter:card" content="summary_large_image"/>
 
     <!-- Title -->
     <%
