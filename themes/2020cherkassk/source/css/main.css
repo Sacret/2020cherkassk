@@ -532,7 +532,12 @@ header .logo a:hover .logo-icon {
     font-family: "Roboto", arial;
     font-size: 15px;
     line-height: 24px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
+}
+
+/* first-line indent for text paragraphs, but not for rows of images or thumbnails */
+.content p:not(:has(> img)):not(:has(> a.thumb)){
+    text-indent: 1.5em;
 }
 
 .content h1,
