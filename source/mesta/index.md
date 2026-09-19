@@ -1,6 +1,8 @@
 ---
 title: Места
 date: 2020-02-07 19:31:32
+cover_detail: /proekt/sketchbook.jpg
+cover_position: 50% 0
 ---
 ## Достопримечательности
 [![Вознесенский собор](sobor/image-thumbnail.jpg#thumbnail "Вознесенский собор")](./sobor)[![Триумфальные арки](arki/image-thumbnail.jpg#thumbnail "Триумфальные арки")](./arki)
