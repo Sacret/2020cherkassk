@@ -1,6 +1,19 @@
 <section class="main clearfix">
 
-    <section class="top" style="background: url('<%- item.cover_detail || theme.default_cover_detail %>');<% if (item.cover_position) { %> background-position: <%- item.cover_position %> !important;<% } %>">
+    <%
+        // cover: explicit cover_detail, otherwise the first photo in the content, otherwise the theme default
+        var cover = item.cover_detail;
+        if (!cover) {
+            var firstImg = (item.content || '').match(/<img[^>]*\ssrc="([^"#]+)/);
+            if (firstImg) cover = firstImg[1];
+        }
+        var coverPosition = item.cover_position;
+        if (!cover) {
+            cover = theme.default_cover_detail;
+            coverPosition = coverPosition || theme.default_cover_position;
+        }
+    %>
+    <section class="top" style="background: url('<%- cover %>');<% if (coverPosition) { %> background-position: <%- coverPosition %> !important;<% } %>">
         <div class="wrapper content_header clearfix">
             <h1 class="title"><%- item.title || theme.default_post_title || "Untitled" %></h1>
         </div>

@@ -12,7 +12,8 @@ default_post_title: Untitled
 default_cover_index: "http://placehold.it/450x450"
 
 # Default post cover index page
-default_cover_detail: "http://placehold.it/1300x500"
+default_cover_detail: /proekt/sketchbook.jpg
+default_cover_position: 50% 0
 
 # Favicon
 favicon: /favicon.ico
