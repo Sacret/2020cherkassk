@@ -1,0 +1,8 @@
+RewriteEngine On
+
+# The site moved from 2020cherkassk.ru to 2020cherkassk.sacret.ru
+RewriteCond %{HTTP_HOST} ^(www\.)?2020cherkassk\.ru$ [NC]
+RewriteRule .* https://2020cherkassk.sacret.ru%{REQUEST_URI} [R=301,L]
+
+RewriteCond %{HTTP:X-Forwarded-Proto} !=https
+RewriteRule .* https://%{SERVER_NAME}%{REQUEST_URI} [R=301,L]

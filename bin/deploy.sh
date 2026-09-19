@@ -18,9 +18,9 @@ export SSHPASS
 npx hexo clean
 npx hexo generate
 
-# .htaccess and cgi-bin are managed on the server, keep them
+# cgi-bin and .htaccess backups live only on the server, keep them
 sshpass -e rsync -rltzv --delete \
-    --exclude .htaccess --exclude cgi-bin \
+    --exclude cgi-bin --exclude '.htaccess.bak*' \
     -e "ssh -o ConnectTimeout=15" \
     "$@" \
     public/ "$user@$host:${path%/}/"
