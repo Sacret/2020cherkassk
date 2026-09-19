@@ -30,6 +30,9 @@
             <!-- Content -->
             <%- item.content %>
 
+            <!-- Prev/next place -->
+            <%- partial('_partial/place-nav', {item: item}) %>
+
             <!-- Comments -->
             <div>
                 <%- partial("_partial/comments.ejs") %>

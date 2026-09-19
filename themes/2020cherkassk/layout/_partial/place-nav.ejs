@@ -1,0 +1,8 @@
+<% var nav = place_nav(item); %>
+<% if (nav) { %>
+<nav class="place-nav">
+    <a href="<%- url_for(nav.prev.path) %>" class="place-nav-prev" rel="prev"><%= nav.prev.title %></a>
+    <a href="<%- url_for('mesta/') %>" class="place-nav-list" title="Все места"></a>
+    <a href="<%- url_for(nav.next.path) %>" class="place-nav-next" rel="next"><%= nav.next.title %></a>
+</nav>
+<% } %>
