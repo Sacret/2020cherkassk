@@ -26,9 +26,12 @@ $(document).ready(function(){
                 var $content = this.$instance.find(".featherlight-content");
                 var placeUrl = this.$currentTarget.attr("data-place-url");
                 var placeLinksData = this.$currentTarget.attr("data-place-links");
+                var photoSource = this.$currentTarget.attr("data-photo-source");
+                var photoAuthor = this.$currentTarget.attr("data-photo-author");
                 var placeLinks = [];
 
                 $content.find(".gallery-place-links").remove();
+                $content.find(".gallery-image-source").remove();
 
                 if (placeLinksData) {
                     try {
@@ -57,6 +60,21 @@ $(document).ready(function(){
                     });
 
                     $links.appendTo($content);
+                }
+
+                if (photoSource) {
+                    var $source = $("<div>", {
+                        "class": "gallery-place-links gallery-image-source"
+                    });
+
+                    $("<a>", {
+                        "class": "gallery-place-link",
+                        "href": photoSource,
+                        "text": "Фото: " + (photoAuthor || "Источник") + " →",
+                        "target": "_blank",
+                        "rel": "noopener"
+                    }).appendTo($source);
+                    $source.appendTo($content);
                 }
             }
         });

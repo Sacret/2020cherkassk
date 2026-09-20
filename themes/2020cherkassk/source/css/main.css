@@ -567,8 +567,15 @@ header .logo a:hover .logo-icon {
     margin-right: 10px;
 }
 
+.content img.place-thumbnail{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
 @media (max-width:400px) {
-    .content img[src*="#thumbnail"]{
+    .content img[src*="#thumbnail"],
+    .content img.place-thumbnail{
         width: 100%;
         height: auto;
     }
