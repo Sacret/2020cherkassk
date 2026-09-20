@@ -70,6 +70,21 @@ cover_position: 50% 0
 </div>
 
 ***
+## Окна
+<div class="gallery-grid">
+  <a class="thumb gallery-preview" data-caption="Окно Новочеркасска №1" href="okna/CYMERA_20151220_123307.jpg" data-photo-source="https://sacret.ru/" data-photo-author="Анастасия Абакумова" aria-label="Открыть окно Новочеркасска №1"><img class="place-thumbnail" src="okna/CYMERA_20151220_123307.jpg" alt="Окно Новочеркасска №1"></a>
+  <a class="thumb gallery-preview" data-caption="Окно Новочеркасска №2" href="okna/CYMERA_20160409_104357.jpg" data-photo-source="https://sacret.ru/" data-photo-author="Анастасия Абакумова" aria-label="Открыть окно Новочеркасска №2"><img class="place-thumbnail" src="okna/CYMERA_20160409_104357.jpg" alt="Окно Новочеркасска №2"></a>
+  <a class="thumb gallery-preview" data-caption="Окно Новочеркасска №3" href="okna/IMG_20161029_145542.jpg" data-photo-source="https://sacret.ru/" data-photo-author="Анастасия Абакумова" aria-label="Открыть окно Новочеркасска №3"><img class="place-thumbnail" src="okna/IMG_20161029_145542.jpg" alt="Окно Новочеркасска №3"></a>
+  <a class="thumb gallery-preview" data-caption="Окно Новочеркасска №4" href="okna/IMG_20161029_150431.jpg" data-photo-source="https://sacret.ru/" data-photo-author="Анастасия Абакумова" aria-label="Открыть окно Новочеркасска №4"><img class="place-thumbnail" src="okna/IMG_20161029_150431.jpg" alt="Окно Новочеркасска №4"></a>
+  <a class="thumb gallery-preview" data-caption="Окно Новочеркасска №5" href="okna/IMG_20170506_144456.jpg" data-photo-source="https://sacret.ru/" data-photo-author="Анастасия Абакумова" aria-label="Открыть окно Новочеркасска №5"><img class="place-thumbnail" src="okna/IMG_20170506_144456.jpg" alt="Окно Новочеркасска №5"></a>
+  <a class="thumb gallery-preview" data-caption="Окно Новочеркасска №6" href="okna/IMG_20170603_124544.jpg" data-photo-source="https://sacret.ru/" data-photo-author="Анастасия Абакумова" aria-label="Открыть окно Новочеркасска №6"><img class="place-thumbnail" src="okna/IMG_20170603_124544.jpg" alt="Окно Новочеркасска №6"></a>
+  <a class="thumb gallery-preview" data-caption="Окно Новочеркасска №7" href="okna/IMG_20170603_125453.jpg" data-photo-source="https://sacret.ru/" data-photo-author="Анастасия Абакумова" aria-label="Открыть окно Новочеркасска №7"><img class="place-thumbnail" src="okna/IMG_20170603_125453.jpg" alt="Окно Новочеркасска №7"></a>
+  <a class="thumb gallery-preview" data-caption="Окно Новочеркасска №8" href="okna/IMG_20170810_191625.jpg" data-photo-source="https://sacret.ru/" data-photo-author="Анастасия Абакумова" aria-label="Открыть окно Новочеркасска №8"><img class="place-thumbnail" src="okna/IMG_20170810_191625.jpg" alt="Окно Новочеркасска №8"></a>
+  <a class="thumb gallery-preview" data-caption="Окно Новочеркасска №9" href="okna/IMG_20170812_123709.jpg" data-photo-source="https://sacret.ru/" data-photo-author="Анастасия Абакумова" aria-label="Открыть окно Новочеркасска №9"><img class="place-thumbnail" src="okna/IMG_20170812_123709.jpg" alt="Окно Новочеркасска №9"></a>
+  <a class="thumb gallery-preview" data-caption="Окно Новочеркасска №10" href="okna/IMG_20170910_104748.jpg" data-photo-source="https://sacret.ru/" data-photo-author="Анастасия Абакумова" aria-label="Открыть окно Новочеркасска №10"><img class="place-thumbnail" src="okna/IMG_20170910_104748.jpg" alt="Окно Новочеркасска №10"></a>
+</div>
+
+***
 ## Козырьки над входом
 <div class="gallery-grid">
   <a class="thumb gallery-preview" data-caption="Пара кованых козырьков" href="kozyrki/117.jpg" data-photo-source="https://www.vladmuz.ru/travel_photos/novocherkassk/architektur/117.htm" data-photo-author="Владимир Музыченко" aria-label="Открыть превью пары кованых козырьков"><img class="place-thumbnail" src="kozyrki/117.jpg" alt="Пара кованых козырьков"></a>
