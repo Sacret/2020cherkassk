@@ -147,6 +147,8 @@ cover_position: 50% 0
 ***
 ## Новочеркасск в других городах
 <div class="gallery-grid">
+  <a class="thumb gallery-preview" data-caption="г. Владикавказ" href="drugie/processed/16.jpg" data-photo-source="https://sacret.ru/" data-photo-author="Анастасия Абакумова" aria-label="Открыть фото из Владикавказа №1"><img class="place-thumbnail" src="thumbnails/drugie/16.webp" alt="Новочеркасск во Владикавказе №1"></a>
+  <a class="thumb gallery-preview" data-caption="г. Владикавказ" href="drugie/processed/17.jpg" data-photo-source="https://sacret.ru/" data-photo-author="Анастасия Абакумова" aria-label="Открыть фото из Владикавказа №2"><img class="place-thumbnail" src="thumbnails/drugie/17.webp" alt="Новочеркасск во Владикавказе №2"></a>
   <a class="thumb gallery-preview" data-caption="г. Ереван · музей М. Сарьяна" href="drugie/processed/01.jpg" data-photo-source="https://sacret.ru/" data-photo-author="Анастасия Абакумова" aria-label="Открыть фото из музея М. Сарьяна в Ереване"><img class="place-thumbnail" src="thumbnails/drugie/01.webp" alt="Новочеркасск в музее М. Сарьяна в Ереване"></a>
   <a class="thumb gallery-preview" data-caption="г. Ереван" href="drugie/processed/02.jpg" data-photo-source="https://sacret.ru/" data-photo-author="Анастасия Абакумова" aria-label="Открыть фото из Еревана №2"><img class="place-thumbnail" src="thumbnails/drugie/02.webp" alt="Новочеркасск в Ереване №2"></a>
   <a class="thumb gallery-preview" data-caption="г. Ереван" href="drugie/processed/04.jpg" data-photo-source="https://sacret.ru/" data-photo-author="Анастасия Абакумова" aria-label="Открыть фото из Еревана №3"><img class="place-thumbnail" src="thumbnails/drugie/04.webp" alt="Новочеркасск в Ереване №3"></a>
