@@ -147,6 +147,8 @@ cover_position: 50% 0
 ***
 ## Новочеркасск в других городах
 <div class="gallery-grid">
+  <a class="thumb gallery-preview" data-caption="г. Санкт-Петербург" href="drugie/processed/20.jpg" data-photo-source="https://sacret.ru/" data-photo-author="Анастасия Абакумова" aria-label="Открыть фото из Санкт-Петербурга №1"><img class="place-thumbnail" src="thumbnails/drugie/20.webp" alt="Новочеркасск в Санкт-Петербурге №1"></a>
+  <a class="thumb gallery-preview" data-caption="г. Санкт-Петербург" href="drugie/processed/21.jpg" data-photo-source="https://sacret.ru/" data-photo-author="Анастасия Абакумова" aria-label="Открыть фото из Санкт-Петербурга №2"><img class="place-thumbnail" src="thumbnails/drugie/21.webp" alt="Новочеркасск в Санкт-Петербурге №2"></a>
   <a class="thumb gallery-preview" data-caption="г. Кронштадт" href="drugie/processed/18.jpg" data-photo-source="https://sacret.ru/" data-photo-author="Анастасия Абакумова" aria-label="Открыть фото из Кронштадта №1"><img class="place-thumbnail" src="thumbnails/drugie/18.webp" alt="Новочеркасск в Кронштадте №1"></a>
   <a class="thumb gallery-preview" data-caption="г. Кронштадт · город-побратим" href="drugie/processed/19.jpg" data-photo-source="https://sacret.ru/" data-photo-author="Анастасия Абакумова" aria-label="Открыть фото города-побратима Кронштадта"><img class="place-thumbnail" src="thumbnails/drugie/19.webp" alt="Кронштадт — город-побратим Новочеркасска"></a>
   <a class="thumb gallery-preview" data-caption="г. Владикавказ" href="drugie/processed/16.jpg" data-photo-source="https://sacret.ru/" data-photo-author="Анастасия Абакумова" aria-label="Открыть фото из Владикавказа №1"><img class="place-thumbnail" src="thumbnails/drugie/16.webp" alt="Новочеркасск во Владикавказе №1"></a>
