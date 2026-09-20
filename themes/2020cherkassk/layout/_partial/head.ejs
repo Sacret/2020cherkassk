@@ -12,6 +12,9 @@
         else if (page.content) description = strip_html(page.content).replace(/^\s*/, '').replace(/\s*$/, '').substring(0, 150);
         if (description) description = description.replace(/\s+/g, ' ');
 
+        var keywords = page.keywords || config.keywords;
+        if (Array.isArray(keywords)) keywords = keywords.join(', ');
+
         // share image: same choice as the page header in article-full.ejs, resolved to an absolute URL
         var pageUrl = full_url_for(page.path).replace(/index\.html$/, '');
         var shareImage = page.cover_detail;
@@ -27,6 +30,10 @@
     <!--Description-->
     <% if (description){ %>
         <meta name="description" content="<%= description %>">
+    <% } %>
+
+    <% if (keywords){ %>
+        <meta name="keywords" content="<%= keywords %>">
     <% } %>
 
     <!--Author-->
