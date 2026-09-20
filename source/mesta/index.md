@@ -5,7 +5,7 @@ cover_detail: /proekt/sketchbook.jpg
 cover_position: 50% 0
 ---
 ## Достопримечательности
-[![Вознесенский собор](thumbnails/sobor/image.webp#thumbnail "Вознесенский собор")](./sobor)[![Триумфальные арки](thumbnails/arki/image.webp#thumbnail "Триумфальные арки")](./arki)[![ЮРГПУ (НПИ)](thumbnails/npi/image.webp#thumbnail "ЮРГПУ (НПИ)")](./npi)
+[![Вознесенский собор](thumbnails/sobor/image.webp#thumbnail "Вознесенский собор")](./sobor)[![Северо-восточная триумфальная арка](thumbnails/arki/image.webp#thumbnail "Северо-восточная триумфальная арка")](./arki/#severo-vostochnaya)[![Западная триумфальная арка](thumbnails/arki/platovskiy.webp#thumbnail "Западная триумфальная арка")](./arki/#zapadnaya)[![ЮРГПУ (НПИ)](thumbnails/npi/image.webp#thumbnail "ЮРГПУ (НПИ)")](./npi)
 ***
 ## Образование и культура
 [![НГМА (НИМИ)](thumbnails/nimi/image.webp#thumbnail "НГМА (НИМИ)")](./nimi)[![Музей истории Донского казачества](thumbnails/museum/image.webp#thumbnail "Музей истории Донского казачества")](./museum)[![Атаманский дворец](thumbnails/ataman/image.webp#thumbnail "Атаманский дворец")](./ataman)[![Казачий драматический театр](thumbnails/teatr/image.webp#thumbnail "Казачий драматический театр")](./teatr)
