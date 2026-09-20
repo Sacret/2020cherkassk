@@ -632,6 +632,11 @@ header .logo a:hover .logo-icon {
     margin: 0;
 }
 
+.content .gallery-grid .gallery-preview{
+    display: block;
+    max-width: 100%;
+}
+
 .content img[src*="#postcards"]{
     width: 300px;
     max-width: 100%;

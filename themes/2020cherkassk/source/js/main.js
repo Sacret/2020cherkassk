@@ -1,5 +1,30 @@
 $(document).ready(function(){
 
+    //turn image rows into galleries with previous/next navigation
+    $(".content .gallery-grid").each(function(){
+        var $images = $(this).find("img").filter(function(){
+            return !$(this).closest("a").length;
+        });
+
+        $images.each(function(index){
+            var imageSource = (this.currentSrc || this.src).split("#")[0];
+
+            $(this).wrap(
+                $("<a>", {
+                    "class": "gallery-preview",
+                    "href": imageSource,
+                    "data-featherlight": "image",
+                    "aria-label": "Открыть изображение " + (index + 1) + " из " + $images.length
+                })
+            );
+        });
+
+        $(this).find("a.gallery-preview").featherlightGallery({
+            previousIcon: "&#10094;",
+            nextIcon: "&#10095;"
+        });
+    });
+
 
 
     //open content images that are not links in the photo viewer
