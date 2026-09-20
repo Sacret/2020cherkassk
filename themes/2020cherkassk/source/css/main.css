@@ -637,6 +637,28 @@ header .logo a:hover .logo-icon {
     max-width: 100%;
 }
 
+.featherlight .featherlight-content .gallery-place-link{
+    position: absolute;
+    z-index: 1000;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 12px 45px;
+    background: rgba(69, 69, 69, 0.9);
+    color: #fff;
+    font-family: "Roboto", arial;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.featherlight .featherlight-content .gallery-place-link:hover,
+.featherlight .featherlight-content .gallery-place-link:focus-visible{
+    text-decoration: none;
+    background: rgba(69, 69, 69, 1);
+}
+
 .content img[src*="#postcards"]{
     width: 300px;
     max-width: 100%;

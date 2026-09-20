@@ -13,15 +13,29 @@ $(document).ready(function(){
                 $("<a>", {
                     "class": "gallery-preview",
                     "href": imageSource,
-                    "data-featherlight": "image",
                     "aria-label": "Открыть изображение " + (index + 1) + " из " + $images.length
                 })
             );
         });
 
         $(this).find("a.gallery-preview").featherlightGallery({
+            type: "image",
             previousIcon: "&#10094;",
-            nextIcon: "&#10095;"
+            nextIcon: "&#10095;",
+            afterContent: function(){
+                var $content = this.$instance.find(".featherlight-content");
+                var placeUrl = this.$currentTarget.attr("data-place-url");
+
+                $content.find(".gallery-place-link").remove();
+
+                if (placeUrl) {
+                    $("<a>", {
+                        "class": "gallery-place-link",
+                        "href": placeUrl,
+                        "text": "Перейти к месту: " + this.$currentTarget.attr("data-place-title")
+                    }).appendTo($content);
+                }
+            }
         });
     });
 
