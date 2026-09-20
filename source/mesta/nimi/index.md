@@ -18,6 +18,7 @@ cover_detail: image-full.jpg
       <div><b>Архитектор:</b> Р. А. Гёдике</div>
       <div><b>Год основания:</b> 1852</div>
       <div><b>Годы постройки:</b> 1887–1891</div>
+      <div class="place-postcard-link place-sticker-link"><a href="/stikery/#sticker-buildings">Посмотреть стикеры с этим местом →</a></div>
     </div>
   </div>
   <div class="place-text">

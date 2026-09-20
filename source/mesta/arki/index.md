@@ -19,6 +19,7 @@ cover_detail: image-full.jpg
       <div><b>Год постройки:</b> 1817</div>
       <div><b>Статус:</b> Объект культурного наследия народов РФ федерального значения</div>
       <div class="place-postcard-link"><a href="/otkrytki/#postcard-arka">Посмотреть открытку с этим местом →</a></div>
+      <div class="place-postcard-link place-sticker-link"><a href="/stikery/#sticker-buildings">Посмотреть стикеры с этим местом →</a></div>
     </div>
   </div>
   <div class="place-text">

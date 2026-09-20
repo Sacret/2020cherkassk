@@ -18,6 +18,7 @@ cover_detail: image-full.jpg
       <div><b>Год основания:</b> 1886</div>
       <div><b>Годы постройки:</b> 1894–1899</div>
       <div><b>Статус:</b> Объект культурного наследия регионального значения</div>
+      <div class="place-postcard-link place-sticker-link"><a href="/stikery/#sticker-buildings">Посмотреть стикеры с этим местом →</a></div>
     </div>
   </div>
   <div class="place-text">
