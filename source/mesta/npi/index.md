@@ -19,6 +19,7 @@ date: 2020-02-16 11:40:25
       <div><b>Год основания:</b> 1907</div>
       <div><b>Годы постройки:</b> 1911–1930</div>
       <div><b>Статус:</b> Объект культурного наследия народов РФ федерального значения</div>
+      <div class="place-postcard-link"><a href="/otkrytki/#postcard-npi">Посмотреть открытку с этим местом →</a></div>
     </div>
   </div>
   <div class="place-text">

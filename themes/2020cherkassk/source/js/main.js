@@ -39,6 +39,13 @@ $(document).ready(function(){
         });
     });
 
+    //open a specific postcard when following a link from its place page
+    var galleryTarget = document.getElementById(window.location.hash.slice(1));
+
+    if (galleryTarget && $(galleryTarget).is("a.gallery-preview")) {
+        $(galleryTarget).trigger("click");
+    }
+
 
 
     //open content images that are not links in the photo viewer

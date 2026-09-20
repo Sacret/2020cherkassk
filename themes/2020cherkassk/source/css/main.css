@@ -1737,6 +1737,20 @@ figure.highlight.yml .number,
     font-style: italic;
 }
 
+.place-postcard-link {
+    margin-top: 12px;
+}
+
+.place-postcard-link a {
+    color: #4b4848;
+    font-weight: bold;
+}
+
+.place-postcard-link a:hover,
+.place-postcard-link a:focus-visible {
+    color: #969595;
+}
+
 @media (max-width:800px){
     .place-image, .place-info {
         width: 100%;

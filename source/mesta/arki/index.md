@@ -18,6 +18,7 @@ cover_detail: image-full.jpg
       <div><b>Архитектор:</b> А. И. Руска</div>
       <div><b>Год постройки:</b> 1817</div>
       <div><b>Статус:</b> Объект культурного наследия народов РФ федерального значения</div>
+      <div class="place-postcard-link"><a href="/otkrytki/#postcard-arka">Посмотреть открытку с этим местом →</a></div>
     </div>
   </div>
   <div class="place-text">
