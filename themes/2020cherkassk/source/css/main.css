@@ -644,6 +644,16 @@ header .logo a:hover .logo-icon {
     max-width: 100%;
 }
 
+.featherlight .featherlight-content .gallery-caption{
+    box-sizing: border-box;
+    padding-top: 10px;
+    color: #4b4848;
+    font-family: "Roboto", arial;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+}
+
 .featherlight .featherlight-content .gallery-place-links{
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));

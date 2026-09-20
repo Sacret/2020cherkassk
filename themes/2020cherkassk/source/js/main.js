@@ -26,12 +26,21 @@ $(document).ready(function(){
                 var $content = this.$instance.find(".featherlight-content");
                 var placeUrl = this.$currentTarget.attr("data-place-url");
                 var placeLinksData = this.$currentTarget.attr("data-place-links");
+                var caption = this.$currentTarget.attr("data-caption");
                 var photoSource = this.$currentTarget.attr("data-photo-source");
                 var photoAuthor = this.$currentTarget.attr("data-photo-author");
                 var placeLinks = [];
 
+                $content.find(".gallery-caption").remove();
                 $content.find(".gallery-place-links").remove();
                 $content.find(".gallery-image-source").remove();
+
+                if (caption) {
+                    $("<div>", {
+                        "class": "gallery-caption",
+                        "text": caption
+                    }).appendTo($content);
+                }
 
                 if (placeLinksData) {
                     try {
