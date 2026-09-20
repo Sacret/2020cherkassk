@@ -670,7 +670,8 @@ header .logo a:hover .logo-icon {
 
 .content img[src*="#marka"]{
     width: 300px;
-    margin: 0 15px 15px 0;
+    max-width: 100%;
+    margin: 0;
 }
 
 .content ol, .content ul{
@@ -1735,6 +1736,17 @@ figure.highlight.yml .number,
 .place-image-source {
     margin-top: 10px;
     font-style: italic;
+}
+
+.mark-image {
+    margin-bottom: 20px;
+}
+
+@media (min-width:1099px) {
+    .mark-image {
+        flex: 0 0 300px;
+        margin-right: 20px;
+    }
 }
 
 .place-postcard-link {

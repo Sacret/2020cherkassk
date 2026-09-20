@@ -14,7 +14,10 @@ cover_detail: image-full.jpg
 На территории Новочеркасска тоже можно найти как нивелирные марки (см. ниже), так и геодезические реперы (ещё один из видов пунктов нивелирной сети).
 
 <div id="3" class="info-container">
-  <img src="3.jpg#marka" alt="Нивелирная марка №3" />
+  <div class="mark-image">
+    <img src="3.jpg#marka" alt="Нивелирная марка №3" />
+    <div class="place-image-source">Фото: <a href="https://sacret.ru/" target="_blank">Анастасия Абакумова</a></div>
+  </div>
   <div class="info-text">
     <h2>Нивелирная марка №3</h2>
     <div><b>Надпись на марке:</b> «Нивеллировка Новочеркасска 1916 г.»</div>
@@ -23,7 +26,10 @@ cover_detail: image-full.jpg
   </div>
 </div>
 <div id="4" class="info-container">
-  <img src="4.jpg#marka" alt="Нивелирная марка №4" />
+  <div class="mark-image">
+    <img src="4.jpg#marka" alt="Нивелирная марка №4" />
+    <div class="place-image-source">Фото: <a href="https://sacret.ru/" target="_blank">Анастасия Абакумова</a></div>
+  </div>
   <div class="info-text">
     <h2>Нивелирная марка №4</h2>
     <div><b>Надпись на марке:</b> «Нивеллировка Новочеркасска 1916 г.»</div>
@@ -32,7 +38,10 @@ cover_detail: image-full.jpg
   </div>
 </div>
 <div id="5" class="info-container">
-  <img src="5.jpg#marka" alt="Нивелирная марка №5" />
+  <div class="mark-image">
+    <img src="5.jpg#marka" alt="Нивелирная марка №5" />
+    <div class="place-image-source">Фото: <a href="https://sacret.ru/" target="_blank">Анастасия Абакумова</a></div>
+  </div>
   <div class="info-text">
     <h2>Нивелирная марка №5</h2>
     <div><b>Надпись на марке:</b> «Нивеллировка Новочеркасска 1916 г.»</div>
@@ -41,7 +50,10 @@ cover_detail: image-full.jpg
   </div>
 </div>
 <div id="6" class="info-container">
-  <img src="6.jpg#marka" alt="Нивелирная марка №6" />
+  <div class="mark-image">
+    <img src="6.jpg#marka" alt="Нивелирная марка №6" />
+    <div class="place-image-source">Фото: <a href="https://sacret.ru/" target="_blank">Анастасия Абакумова</a></div>
+  </div>
   <div class="info-text">
     <h2>Нивелирная марка №6</h2>
     <div><b>Надпись на марке:</b> «Нивеллировка Новочеркасска 1916 г.»</div>
@@ -50,7 +62,10 @@ cover_detail: image-full.jpg
   </div>
 </div>
 <div id="15" class="info-container">
-  <img src="15.jpg#marka" alt="Нивелирная марка №15" />
+  <div class="mark-image">
+    <img src="15.jpg#marka" alt="Нивелирная марка №15" />
+    <div class="place-image-source">Фото: <a href="https://sacret.ru/" target="_blank">Анастасия Абакумова</a></div>
+  </div>
   <div class="info-text">
     <h2>Нивелирная марка №15</h2>
     <div><b>Надпись на марке:</b> «Нивеллировка Новочеркасска 1916 г.»</div>
@@ -59,7 +74,10 @@ cover_detail: image-full.jpg
   </div>
 </div>
 <div id="16" class="info-container">
-  <img src="16.jpg#marka" alt="Нивелирная марка №16" />
+  <div class="mark-image">
+    <img src="16.jpg#marka" alt="Нивелирная марка №16" />
+    <div class="place-image-source">Фото: <a href="https://sacret.ru/" target="_blank">Анастасия Абакумова</a></div>
+  </div>
   <div class="info-text">
     <h2>Нивелирная марка №16</h2>
     <div><b>Надпись на марке:</b> «Нивеллировка Новочеркасска 1916 г.»</div>
@@ -68,7 +86,10 @@ cover_detail: image-full.jpg
   </div>
 </div>
 <div id="21" class="info-container">
-  <img src="21.jpg#marka" alt="Нивелирная марка №21" />
+  <div class="mark-image">
+    <img src="21.jpg#marka" alt="Нивелирная марка №21" />
+    <div class="place-image-source">Фото: <a href="https://sacret.ru/" target="_blank">Анастасия Абакумова</a></div>
+  </div>
   <div class="info-text">
     <h2>Нивелирная марка №21</h2>
     <div><b>Надпись на марке:</b> «Нивеллировка Новочеркасска 1916 г.»</div>
@@ -77,7 +98,10 @@ cover_detail: image-full.jpg
   </div>
 </div>
 <div id="22" class="info-container">
-  <img src="22.jpg#marka" alt="Нивелирная марка №22" />
+  <div class="mark-image">
+    <img src="22.jpg#marka" alt="Нивелирная марка №22" />
+    <div class="place-image-source">Фото: <a href="https://sacret.ru/" target="_blank">Анастасия Абакумова</a></div>
+  </div>
   <div class="info-text">
     <h2>Нивелирная марка №22</h2>
     <div><b>Надпись на марке:</b> «Нивеллировка Новочеркасска 1916 г.»</div>
@@ -86,7 +110,10 @@ cover_detail: image-full.jpg
   </div>
 </div>
 <div id="23" class="info-container">
-  <img src="23.jpg#marka" alt="Нивелирная марка №23" />
+  <div class="mark-image">
+    <img src="23.jpg#marka" alt="Нивелирная марка №23" />
+    <div class="place-image-source">Фото: <a href="https://sacret.ru/" target="_blank">Анастасия Абакумова</a></div>
+  </div>
   <div class="info-text">
     <h2>Нивелирная марка №23</h2>
     <div><b>Надпись на марке:</b> «Нивеллировка Новочеркасска 1916 г.»</div>
@@ -95,7 +122,10 @@ cover_detail: image-full.jpg
   </div>
 </div>
 <div id="m" class="info-container">
-  <img src="m.jpg#marka" alt="Нивелирная марка (номер не читается)" />
+  <div class="mark-image">
+    <img src="m.jpg#marka" alt="Нивелирная марка (номер не читается)" />
+    <div class="place-image-source">Фото: <a href="https://sacret.ru/" target="_blank">Анастасия Абакумова</a></div>
+  </div>
   <div class="info-text">
     <h2>Нивелирная марка (номер не читается)</h2>
     <div><b>Надпись на марке:</b> «Нивеллировка Новочеркасска»</div>

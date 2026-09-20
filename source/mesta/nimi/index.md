@@ -7,6 +7,9 @@ cover_detail: image-full.jpg
 <div class="place">
   <div class="place-image">
     <img src="image.jpg#mesta" alt="Новочеркасская государственная мелиоративная академия" />
+    <div class="place-image-source">
+      Фото: <a href="https://sacret.ru/" target="_blank">Анастасия Абакумова</a>
+    </div>
   </div>
   <div class="place-info">
     <div class="info-text">
