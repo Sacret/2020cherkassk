@@ -638,34 +638,44 @@ header .logo a:hover .logo-icon {
 }
 
 .featherlight .featherlight-content .gallery-place-links{
-    position: absolute;
-    z-index: 1000;
-    right: 0;
-    bottom: 0;
-    left: 0;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
     box-sizing: border-box;
-    background: rgba(69, 69, 69, 0.9);
-    text-align: center;
+    padding-top: 10px;
 }
 
 .featherlight .featherlight-content .gallery-place-link{
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     box-sizing: border-box;
-    padding: 10px 45px;
-    color: #fff;
+    min-height: 42px;
+    padding: 8px 14px;
+    border: 1px solid #dedede;
+    background: #f4f4f4;
+    color: #4b4848;
     font-family: "Roboto", arial;
-    font-size: 15px;
-    line-height: 22px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
 }
 
-.featherlight .featherlight-content .gallery-place-link + .gallery-place-link{
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
+.featherlight .featherlight-content .gallery-place-link:only-child{
+    grid-column: 1 / -1;
 }
 
 .featherlight .featherlight-content .gallery-place-link:hover,
 .featherlight .featherlight-content .gallery-place-link:focus-visible{
     text-decoration: none;
-    background: rgba(255, 255, 255, 0.12);
+    border-color: #969595;
+    background: #e9e9e9;
+}
+
+@media (max-width:600px) {
+    .featherlight .featherlight-content .gallery-place-links{
+        grid-template-columns: 1fr;
+    }
 }
 
 .content img[src*="#postcards"]{

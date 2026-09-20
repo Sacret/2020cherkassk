@@ -52,7 +52,7 @@ $(document).ready(function(){
                         $("<a>", {
                             "class": "gallery-place-link",
                             "href": place.url,
-                            "text": "Перейти к месту: " + place.title
+                            "text": place.title + " →"
                         }).appendTo($links);
                     });
 
