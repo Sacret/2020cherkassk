@@ -19,6 +19,9 @@ cover_position: 50% 0
 ## Особняки
 [![Особняк Сальникова (Дом учёных)](osobnyaki/salnikov-image-thumbnail.jpg#thumbnail "Особняк Сальникова (Дом учёных)")](./osobnyaki#salnikov)[![Дом с башней](osobnyaki/dom-s-bashney-image-thumbnail.jpg#thumbnail "Дом с башней")](./osobnyaki#dom-s-bashney)[![Доходный дом Кумшацкой](osobnyaki/kumshatskoy-image-thumbnail.jpg#thumbnail "Доходный дом Кумшацкой")](./osobnyaki#kumshatskoy)[![Деревянный дом на Комитетской](osobnyaki/komitetskaya-derevyannyy-image-thumbnail.jpg#thumbnail "Деревянный дом на Комитетской")](./osobnyaki#komitetskaya-derevyannyy)[![Дом на Комитетской, 110](osobnyaki/komitetskaya-110-image-thumbnail.jpg#thumbnail "Дом на Комитетской, 110")](./osobnyaki#komitetskaya-110)[![Дом с совой](osobnyaki/dom-s-sovoy-image-thumbnail.jpg#thumbnail "Дом с совой")](./osobnyaki#dom-s-sovoy)[![Дом на Баклановском проспекте](osobnyaki/baklanovskiy-image-thumbnail.jpg#thumbnail "Дом на Баклановском проспекте")](./osobnyaki#baklanovskiy)
 ***
+## Советская архитектура
+[![Дом со шпилем](sovetskaya-arkhitektura/dom-so-shpilem-image-thumbnail.jpg#thumbnail "Дом со шпилем")](./sovetskaya-arkhitektura#dom-so-shpilem)[![Пятиэтажный дом на Московской улице](sovetskaya-arkhitektura/pyatietazhnyy-dom-image-thumbnail.jpg#thumbnail "Пятиэтажный дом на Московской улице")](./sovetskaya-arkhitektura#pyatietazhnyy-dom)
+***
 ## Люки
 ***
 ## Двери
