@@ -22,6 +22,7 @@ cover_detail: image-full.jpg
       <div><b>Статус:</b> Объект культурного наследия народов РФ федерального значения</div>
       <div><b>Высота:</b> 74,7 м</div>
       <div class="place-postcard-link"><a href="/otkrytki/#postcard-sobor">Посмотреть открытку с этим местом →</a></div>
+      <div class="place-postcard-link place-sticker-link"><a href="/stikery/#sticker-churches">Посмотреть стикеры с этим местом →</a></div>
     </div>
   </div>
   <div class="place-text">

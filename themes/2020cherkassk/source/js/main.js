@@ -25,15 +25,38 @@ $(document).ready(function(){
             afterContent: function(){
                 var $content = this.$instance.find(".featherlight-content");
                 var placeUrl = this.$currentTarget.attr("data-place-url");
+                var placeLinksData = this.$currentTarget.attr("data-place-links");
+                var placeLinks = [];
 
-                $content.find(".gallery-place-link").remove();
+                $content.find(".gallery-place-links").remove();
+
+                if (placeLinksData) {
+                    try {
+                        placeLinks = JSON.parse(placeLinksData);
+                    } catch (error) {
+                        placeLinks = [];
+                    }
+                }
 
                 if (placeUrl) {
-                    $("<a>", {
-                        "class": "gallery-place-link",
-                        "href": placeUrl,
-                        "text": "Перейти к месту: " + this.$currentTarget.attr("data-place-title")
-                    }).appendTo($content);
+                    placeLinks.push({
+                        url: placeUrl,
+                        title: this.$currentTarget.attr("data-place-title")
+                    });
+                }
+
+                if (placeLinks.length) {
+                    var $links = $("<div>", { "class": "gallery-place-links" });
+
+                    $.each(placeLinks, function(index, place){
+                        $("<a>", {
+                            "class": "gallery-place-link",
+                            "href": place.url,
+                            "text": "Перейти к месту: " + place.title
+                        }).appendTo($links);
+                    });
+
+                    $links.appendTo($content);
                 }
             }
         });
