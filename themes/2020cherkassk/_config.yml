@@ -15,6 +15,10 @@ default_cover_index: "http://placehold.it/450x450"
 default_cover_detail: /proekt/sketchbook.jpg
 default_cover_position: 50% 0
 
+# Share preview for pages without their own picture (home, lists): favicon + title card,
+# 1200x630, drawn by og_card.py (sacret/genealogy)
+default_share_image: /og-image.jpg
+
 # Favicon
 favicon: /favicon.ico
 

@@ -22,7 +22,7 @@
             var firstImg = (page.content || '').match(/<img[^>]*\ssrc="([^"#]+)/);
             if (firstImg) shareImage = firstImg[1];
         }
-        shareImage = new URL(shareImage || theme.default_cover_detail, pageUrl).href;
+        shareImage = new URL(shareImage || theme.default_share_image || theme.default_cover_detail, pageUrl).href;
     %>
 
     <link rel="canonical" href="<%= pageUrl %>">
