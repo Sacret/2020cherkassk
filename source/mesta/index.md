@@ -44,6 +44,8 @@ cover_position: 50% 0
   <a class="thumb gallery-preview" data-caption="Люк Новочеркасска №18" href="lyuki/18.jpg" data-photo-source="https://sacret.ru/" data-photo-author="Анастасия Абакумова" aria-label="Открыть превью люка Новочеркасска №18"><img class="place-thumbnail" src="thumbnails/lyuki/18.webp" alt="Люк Новочеркасска №18"></a>
   <a class="thumb gallery-preview" data-caption="Люк Новочеркасска №19" href="lyuki/19.jpg" data-photo-source="https://sacret.ru/" data-photo-author="Анастасия Абакумова" aria-label="Открыть превью люка Новочеркасска №19"><img class="place-thumbnail" src="thumbnails/lyuki/19.webp" alt="Люк Новочеркасска №19"></a>
   <a class="thumb gallery-preview" data-caption="Люк Новочеркасска №20" href="lyuki/20.jpg" data-photo-source="https://sacret.ru/" data-photo-author="Анастасия Абакумова" aria-label="Открыть превью люка Новочеркасска №20"><img class="place-thumbnail" src="thumbnails/lyuki/20.webp" alt="Люк Новочеркасска №20"></a>
+  <a class="thumb gallery-preview" data-caption="Люк Новочеркасска №21" href="lyuki/21.jpg" data-photo-source="https://sacret.ru/" data-photo-author="Анастасия Абакумова" aria-label="Открыть превью люка Новочеркасска №21"><img class="place-thumbnail" src="thumbnails/lyuki/21.webp" alt="Люк Новочеркасска №21"></a>
+  <a class="thumb gallery-preview" data-caption="Люк Новочеркасска №22" href="lyuki/22.jpg" data-photo-source="https://sacret.ru/" data-photo-author="Анастасия Абакумова" aria-label="Открыть превью люка Новочеркасска №22"><img class="place-thumbnail" src="thumbnails/lyuki/22.webp" alt="Люк Новочеркасска №22"></a>
 </div>
 
 ***
